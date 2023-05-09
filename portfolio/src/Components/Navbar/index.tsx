@@ -25,8 +25,8 @@ const NavBar: React.FC = () => {
   return (
     <Styles.Nav>
       <Styles.TitleDiv>
-        <Styles.Header>Hello</Styles.Header>
-        <Styles.SubHeader>I'm Kevin Choe</Styles.SubHeader>
+        <Styles.Header>Kevin's</Styles.Header>
+        <Styles.SubHeader>Project Portfolio</Styles.SubHeader>
       </Styles.TitleDiv>
       <Styles.NavLinks>
         {links.map((link, index) => (

@@ -42,7 +42,7 @@ function App() {
     },
   ]);
   return (
-    <div className=''>
+    <div className='' style={{backgroundColor: '#71797e'}}>
       <NavBar />
       <RouterProvider router={router} />
     </div>

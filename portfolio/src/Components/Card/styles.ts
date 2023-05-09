@@ -6,9 +6,26 @@ export const Card = styled.div`
   justify-content: start;
   align-items: center;
   width: 80%;
-  min-height: 200px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  gap: .25rem;
+  box-shadow: 0 10px 20px rgba(54, 69, 79, 0.15), 0 6px 6px rgba(54, 69, 79, 0.2);
   border-radius: 10px;
-  background-color: #495963aa;
-  padding: 1rem;
+  background-color: #36454f;
+  padding: .25rem 0 0 0;
+  color: #fff;
+  font-size: 24px
+`;
+
+export const CardContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  min-height: 72px;
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: .25rem 0;
+  background-color: #FFFDFA;
+  color: #000205;
 `;

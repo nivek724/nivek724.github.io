@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 export const Main = styled.div`
   background-color: #71797e;
-  height: 100vh;
-  width: 100%;
+  min-height: 100vh;
   padding: 1rem;
   margin: 0;
   font-family: 'Fira Sans', sans-serif;
