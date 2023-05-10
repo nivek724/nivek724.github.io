@@ -7,6 +7,9 @@ export const Nav = styled.div`
   padding: 1.5rem 1rem;
   background-color: #36454f;
   color: #fff;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 `;
 
 export const TitleDiv = styled.div`
