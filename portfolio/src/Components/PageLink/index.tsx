@@ -10,7 +10,7 @@ interface PageLinkProps {
 const PageLink: React.FC<PageLinkProps> = ({ link, children, vertical }) => {
   return link ? (
     <Styles.Container>
-      <Styles.LinkBox href={link} style={{ flexDirection: vertical ? 'column' : 'row' }}>
+      <Styles.LinkBox to={link} style={{ flexDirection: vertical ? 'column' : 'row' }}>
         {children}
       </Styles.LinkBox>
     </Styles.Container>

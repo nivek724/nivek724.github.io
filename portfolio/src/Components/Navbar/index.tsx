@@ -9,15 +9,15 @@ const NavBar: React.FC = () => {
       text: 'Home',
     },
     {
-      src: '/projects',
+      src: '/Projects',
       text: 'Projects',
     },
     {
-      src: '/contact',
+      src: '/Contact',
       text: 'Contact',
     },
     {
-      src: '/about',
+      src: '/About',
       text: 'About Me',
     },
   ];

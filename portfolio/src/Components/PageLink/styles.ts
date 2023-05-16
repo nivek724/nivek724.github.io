@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link} from 'react-router-dom'
 
 export const Container = styled.div`
   padding: .5rem 2rem;
@@ -11,7 +12,7 @@ export const Container = styled.div`
   gap: 1rem;
 `;
 
-export const LinkBox = styled.a`
+export const LinkBox = styled(Link)`
   text-decoration: none;
   width: 100%;
   flex-direction: row;

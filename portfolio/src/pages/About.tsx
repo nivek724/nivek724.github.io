@@ -22,7 +22,7 @@ const About: React.FC = () => {
   return (
     <Container>
       <Card title={<div>I'm Kevin Choe</div>}>
-        <PageLink link={'contact'} vertical>
+        <PageLink link={'/contact'} vertical>
           <Text>
             Hey, firstly thanks for checking out my about page. I am a software engineer mainly specializing in Web
             Development; however, I learned about different subjects over the multiple years I've spent coding. I
@@ -45,7 +45,7 @@ const About: React.FC = () => {
         </PageLink>
       </Card>
       <Card title={<div>My Projects</div>}>
-        <PageLink link={'projects'} vertical>
+        <PageLink link={'/projects'} vertical>
           <Text>
             I've worked for two companies so far both being startups. One is called Emerging Markets and works to
             provide businesses with webpages to get into the tech space. The other is called Paladin which is a crypto

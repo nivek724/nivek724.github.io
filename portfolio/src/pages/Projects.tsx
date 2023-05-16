@@ -59,13 +59,15 @@ const Projects: React.FC = () => {
         </PageLink>
       </Card>
       <Card title={<div>Paladin Finance</div>}>
-        <PageLink link={'https://github.com/PaladinFinance'} vertical>
-          <Text>
-            Paladin is a web 3 company where I built some of their main traffic pages. I worked with a team of 6 other
-            developers on multiple projects that are still currently in development. As a startup the company moved fast
-            and I would work on new repos every few months as the company pivoted. Some of the currently released sites
-            are below but this card is a link to their github that releases projects once they are public.
-          </Text>
+        <PageLink vertical>
+          <Link href='https://github.com/PaladinFinance' rel='norefferer' target='_blank'>
+            <Text>
+              Paladin is a web 3 company where I built some of their main traffic pages. I worked with a team of 6 other
+              developers on multiple projects that are still currently in development. As a startup the company moved
+              fast and I would work on new repos every few months as the company pivoted. Some of the currently released
+              sites are below but this card is a link to their github that releases projects once they are public.
+            </Text>
+          </Link>
         </PageLink>
       </Card>
       <Card title={<div>Keep.Paladin.vote</div>}>

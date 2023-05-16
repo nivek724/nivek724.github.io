@@ -7,11 +7,7 @@ interface LinkProps {
 }
 
 const Link: React.FC<LinkProps> = ({ src, text }) => {
-  return (
-    <Styles.MyLink href={src} target='_self'>
-      {text}
-    </Styles.MyLink>
-  );
+  return <Styles.MyLink to={src}>{text}</Styles.MyLink>;
 };
 
 export default Link;
