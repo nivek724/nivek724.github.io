@@ -45,7 +45,7 @@ const Link = styled.a`
 const Contact: React.FC = () => {
   return (
     <Container>
-      <Card title={<div>Contact Me</div>}>
+      <Card title={'Contact Me'}>
         <ContentContainer>
           <Link href='mailto:kevin.nivek.choe@gmail.com'>
             <img src='./email.png' alt='email' />
@@ -65,7 +65,7 @@ const Contact: React.FC = () => {
           </Link>
         </ContentContainer>
       </Card>
-      <Card title={<div>Resume</div>}>
+      <Card title={'Resume'}>
         <PageLink vertical>
           <Text>Contact me on my LinkedIn or send me an email to get my resume.</Text>
           <Text>

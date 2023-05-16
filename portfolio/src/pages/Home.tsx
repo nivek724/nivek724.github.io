@@ -21,7 +21,7 @@ const Text = styled.p`
 const Home: React.FC = () => {
   return (
     <Container>
-      <Card title={<div>Welcome</div>}>
+      <Card title={'Welcome'}>
         <PageLink link={'/Contact'} vertical>
           <Text>Hello, this is my portfolio that holds some of the small side projects I've worked on.</Text>
           <Text>
@@ -37,7 +37,7 @@ const Home: React.FC = () => {
         </PageLink>
       </Card>
 
-      <Card title={<div>Projects</div>}>
+      <Card title={'Projects'}>
         <PageLink link={'/Projects'} vertical>
           <Text>Click on this card to see some of the projects I've worked on.</Text>
           <Text>
@@ -46,7 +46,7 @@ const Home: React.FC = () => {
         </PageLink>
       </Card>
 
-      <Card title={<div>About</div>}>
+      <Card title={'About'}>
         <PageLink link={'/About'} vertical>
           <Text>Click on this card to see a small personal message about myself.</Text>
           <Text>

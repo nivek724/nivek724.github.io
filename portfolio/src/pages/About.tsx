@@ -21,7 +21,7 @@ const Text = styled.p`
 const About: React.FC = () => {
   return (
     <Container>
-      <Card title={<div>I'm Kevin Choe</div>}>
+      <Card title={"I'm Kevin Choe"}>
         <PageLink link={'/contact'} vertical>
           <Text>
             Hey, firstly thanks for checking out my about page. I am a software engineer mainly specializing in Web
@@ -44,7 +44,7 @@ const About: React.FC = () => {
           </Text>
         </PageLink>
       </Card>
-      <Card title={<div>My Projects</div>}>
+      <Card title={'My Projects'}>
         <PageLink link={'/projects'} vertical>
           <Text>
             I've worked for two companies so far both being startups. One is called Emerging Markets and works to

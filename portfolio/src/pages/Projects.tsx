@@ -48,7 +48,7 @@ const Link = styled.a`
 const Projects: React.FC = () => {
   return (
     <Container>
-      <Card title={<div>My Projects</div>}>
+      <Card title={'My Projects'}>
         <PageLink vertical>
           <Text>
             Currently there are projects from both college and my previous work experience on here. I will be adding
@@ -58,7 +58,7 @@ const Projects: React.FC = () => {
           </Text>
         </PageLink>
       </Card>
-      <Card title={<div>Paladin Finance</div>}>
+      <Card title={'Paladin Finance'}>
         <PageLink vertical>
           <Link href='https://github.com/PaladinFinance' rel='norefferer' target='_blank'>
             <Text>
@@ -70,7 +70,7 @@ const Projects: React.FC = () => {
           </Link>
         </PageLink>
       </Card>
-      <Card title={<div>Keep.Paladin.vote</div>}>
+      <Card title={'Keep.Paladin.vote'}>
         <PageLink vertical>
           <ContentContainer>
             <Link href='https://keep.paladin.vote/' rel='norefferer' target='_blank'>
@@ -88,7 +88,7 @@ const Projects: React.FC = () => {
           </ContentContainer>
         </PageLink>
       </Card>
-      <Card title={<div>Paladin.vote</div>}>
+      <Card title={'Paladin.vote'}>
         <PageLink vertical>
           <ContentContainer>
             <Link href='https://www.Paladin.vote' rel='norefferer' target='_blank'>
@@ -105,7 +105,7 @@ const Projects: React.FC = () => {
           </ContentContainer>
         </PageLink>
       </Card>
-      <Card title={<div>App.Paladin.Vote</div>}>
+      <Card title={'App.Paladin.Vote'}>
         <PageLink vertical>
           <ContentContainer>
             <Link href='https://app.paladin.vote/#/' rel='norefferer' target='_blank'>
@@ -122,7 +122,7 @@ const Projects: React.FC = () => {
           </ContentContainer>
         </PageLink>
       </Card>
-      <Card title={<div>Emerging Markets</div>}>
+      <Card title={'Emerging Markets'}>
         <ContentContainer>
           <Link href={'https://www.alexvargas.org/'} rel='norefferer' target='_blank'>
             <Text>
@@ -134,7 +134,7 @@ const Projects: React.FC = () => {
           </Link>
         </ContentContainer>
       </Card>
-      <Card title={<div>Personal Project: Paladin Test App</div>}>
+      <Card title={'Paladin Test App'}>
         <ContentContainer>
           <Link href={'https://nivek724.github.io/paladin-app/'} rel='norefferer' target='_blank'>
             <img
@@ -143,9 +143,9 @@ const Projects: React.FC = () => {
               style={{ maxHeight: '300px', width: '90%', maxWidth: 'fit-content' }}
             />
             <Description>
-              This is a test site I created to try out Web 3 libraries that allowed connecting crypto wallets on a test
-              network and making deposits or withdrawals. It is very bare functionality but purely made for testing out
-              some basic web 3 functionality.
+              This personal project is a test site I created to try out Web 3 libraries that allowed connecting crypto
+              wallets on a test network and making deposits or withdrawals. It is very bare functionality but purely
+              made for testing out some basic web 3 functionality.
             </Description>
           </Link>
         </ContentContainer>
