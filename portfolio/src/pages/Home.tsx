@@ -31,6 +31,8 @@ const Home: React.FC = () => {
           <Text>Click on this card to see my contact page if you want to get in touch with me.</Text>
           <Text>
             Thanks for taking the time to check out some of the projects I've worked on, I hope you have a great day!
+            Small note that this page is still under construction so mobile support is not fully implemented yet. Please
+            view in desktop mode thank you.
           </Text>
         </PageLink>
       </Card>
