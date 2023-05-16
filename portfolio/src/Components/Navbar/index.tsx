@@ -17,7 +17,7 @@ const NavBar: React.FC = () => {
       text: 'Contact',
     },
     {
-      src: '/aboutMe',
+      src: '/about',
       text: 'About Me',
     },
   ];

@@ -33,7 +33,7 @@ function App() {
       ),
     },
     {
-      path: '/aboutMe',
+      path: '/about',
       element: (
         <Body>
           <About />
@@ -42,7 +42,7 @@ function App() {
     },
   ]);
   return (
-    <div className='' style={{backgroundColor: '#71797e'}}>
+    <div className='' style={{ backgroundColor: '#71797e' }}>
       <NavBar />
       <RouterProvider router={router} />
     </div>

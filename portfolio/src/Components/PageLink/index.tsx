@@ -8,12 +8,14 @@ interface PageLinkProps {
 }
 
 const PageLink: React.FC<PageLinkProps> = ({ link, children, vertical }) => {
-  return (
+  return link ? (
     <Styles.Container>
-      <Styles.LinkBox href={link ? link : '/'} style={{ flexDirection: vertical ? 'column' : 'row' }}>
+      <Styles.LinkBox href={link} style={{ flexDirection: vertical ? 'column' : 'row' }}>
         {children}
       </Styles.LinkBox>
     </Styles.Container>
+  ) : (
+    <Styles.Container style={{ flexDirection: vertical ? 'column' : 'row' }}>{children}</Styles.Container>
   );
 };
 
