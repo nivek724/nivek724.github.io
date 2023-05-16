@@ -12,7 +12,11 @@ export const Card = styled.div`
   background-color: #36454f;
   padding: .25rem 0 0 0;
   color: #fff;
-  font-size: 24px
+  font-size: 24px;
+  text-align: center;
+  @media(max-width: 600px) {
+    font-size: 18px;
+  }
 `;
 
 export const CardContent = styled.div`
