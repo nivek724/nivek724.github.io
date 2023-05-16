@@ -10,6 +10,9 @@ export const Nav = styled.div`
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+  @media(max-width: 600px) {
+    padding: 1.5rem .5rem;
+  }
 `;
 
 export const TitleDiv = styled.div`
@@ -23,12 +26,18 @@ export const Header = styled.div`
   font-family: 'Fira Sans', sans-serif;
   font-size: 24px;
   font-weight: 600;
+  @media(max-width: 600px) {
+    font-size: 18px;
+  }
 `;
 
 export const SubHeader = styled.div`
   font-family: 'Fira Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
+  @media(max-width: 600px) {
+    font-size: 12px;
+  }
 `;
 
 export const NavLinks = styled.div`

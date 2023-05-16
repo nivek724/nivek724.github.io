@@ -74,7 +74,11 @@ const Projects: React.FC = () => {
         <PageLink vertical>
           <ContentContainer>
             <Link href='https://keep.paladin.vote/' rel='norefferer' target='_blank'>
-              <img src='./paladin.keep.jpg' alt='Paladin Main Page' height='300px' width='fit-content' />
+              <img
+                src='./paladin.keep.jpg'
+                alt='Paladin Media'
+                style={{ maxHeight: '300px', width: '90%', maxWidth: 'fit-content' }}
+              />
               <Description>
                 Paladin Keep is a project I developed the majority of the code on. This page is designed for
                 distribution of news like articles that would normally be hosted on medium. Most of the pages were done
@@ -88,7 +92,11 @@ const Projects: React.FC = () => {
         <PageLink vertical>
           <ContentContainer>
             <Link href='https://www.Paladin.vote' rel='norefferer' target='_blank'>
-              <img src='./paladin.jpg' alt='Paladin Main Page' height='300px' width='fit-content' />
+              <img
+                src='./paladin.jpg'
+                alt='Paladin Main Page'
+                style={{ maxHeight: '300px', width: '90%', maxWidth: 'fit-content' }}
+              />
               <Description>
                 Paladin.vote is the main page for the company. I helped maintain the site by updating with current
                 information and adding some new pages to the site such as the about us page.
@@ -101,7 +109,11 @@ const Projects: React.FC = () => {
         <PageLink vertical>
           <ContentContainer>
             <Link href='https://app.paladin.vote/#/' rel='norefferer' target='_blank'>
-              <img src='./paladin.app.jpg' alt='Paladin App' height='300px' width='fit-content' />
+              <img
+                src='./paladin.app.jpg'
+                alt='Paladin App'
+                style={{ maxHeight: '300px', width: '90%', maxWidth: 'fit-content' }}
+              />
               <Description>
                 This is the one of the projects that I helped maintain and add features for. I worked on updating bugs
                 that were found for users and adding new features for a better user experience.
@@ -111,24 +123,32 @@ const Projects: React.FC = () => {
         </PageLink>
       </Card>
       <Card title={<div>Emerging Markets</div>}>
-        <Link href={'https://www.alexvargas.org/'} rel='norefferer' target='_blank'>
-          <Text>
-            Emerging Markets is a startup that I worked for during my time at college. I worked on the front end of a
-            couple of small static website projects. I also worked on a app that is currently under development that
-            will be releasing in the future. This card has a link to one of the public sites I helped develop by
-            creating features like the endorsements and footer.
-          </Text>
-        </Link>
+        <ContentContainer>
+          <Link href={'https://www.alexvargas.org/'} rel='norefferer' target='_blank'>
+            <Text>
+              Emerging Markets is a startup that I worked for during my time at college. I worked on the front end of a
+              couple of small static website projects. I also worked on a app that is currently under development that
+              will be releasing in the future. This card has a link to one of the public sites I helped develop by
+              creating features like the endorsements and footer.
+            </Text>
+          </Link>
+        </ContentContainer>
       </Card>
       <Card title={<div>Personal Project: Paladin Test App</div>}>
-        <Link href={'https://nivek724.github.io/paladin-app/'} rel='norefferer' target='_blank'>
-          <img src='./pal.test.app.jpg' alt='Paladin App' height='300px' width='fit-content' />
-          <Description>
-            This is a test site I created to try out Web 3 libraries that allowed connecting crypto wallets on a test
-            network and making deposits or withdrawals. It is very bare functionality but purely made for testing out
-            some basic web 3 functionality.
-          </Description>
-        </Link>
+        <ContentContainer>
+          <Link href={'https://nivek724.github.io/paladin-app/'} rel='norefferer' target='_blank'>
+            <img
+              src='./pal.test.app.jpg'
+              alt='Paladin Test App'
+              style={{ maxHeight: '300px', width: '90%', maxWidth: 'fit-content' }}
+            />
+            <Description>
+              This is a test site I created to try out Web 3 libraries that allowed connecting crypto wallets on a test
+              network and making deposits or withdrawals. It is very bare functionality but purely made for testing out
+              some basic web 3 functionality.
+            </Description>
+          </Link>
+        </ContentContainer>
       </Card>
     </Container>
   );

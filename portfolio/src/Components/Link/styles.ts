@@ -8,6 +8,10 @@ export const MyLink = styled(Link)`
   text-decoration: none;
   color: #fff;
   margin: 0 1rem;
+  @media(max-width: 600px) {
+    font-size: 16px;
+    margin: 0 .25rem;
+  }
 
   &:hover {
     color: #f0f0f0;
