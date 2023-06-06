@@ -30,9 +30,11 @@ const Home: React.FC = () => {
           </Text>
           <Text>Click on this card to see my contact page if you want to get in touch with me.</Text>
           <Text>
-            Thanks for taking the time to check out some of the projects I've worked on, I hope you have a great day!
-            Small note that this page is still under construction so mobile support is not fully implemented yet. Please
-            view in desktop mode thank you.
+            Thanks for taking the time to check out some of the projects I've worked on. I am not a graphic designer or
+            have artistic talent so please excuse my lack of creativity and design on this site. I can implement designs
+            but not create them from scratch so thank you to all desginers everywhere. Small note that this page is
+            still under construction some screen sizes may have sizing problems. Please view with that in consideration
+            thank you.
           </Text>
         </PageLink>
       </Card>
